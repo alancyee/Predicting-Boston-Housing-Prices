@@ -2292,7 +2292,7 @@ JdlFRETvJdlFRETv/Q/X/NzPr6g97gAAAABJRU5ErkJggg==
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer: </strong></p>
-<p>As the max depth increases, the training error approaches 0, while the testing error levels off at around 30-35%.  It is not clear exactly which generalizes teh best, but I would choose a depth of 4. After a depth of 4 features the model seems to be overfitting which can be seen by the variance in the learning curves.</p>
+<p>As the max depth increases, the training error approaches 0, while the testing error levels off at around 30-35. A training error approaching zero may not be ideal since this is probably due to overfitting on the data.  It is not clear exactly which depth generalizes the best, but I would choose a depth of 4. After a depth of 4 features the model seems to be overfitting which can be seen by the variance in the learning curves. Plus Occam's razor suggests that the simpler model should be used when all else is equal.</p>
 
 </div>
 </div>
